@@ -72,6 +72,6 @@ By storing data closer to where it's needed, systems don't waste time getting it
 
 ## References:
 
-[1] https://www.youtube.com/watch?v=dGAgxozNWFE
+* [Understand Caching by ByteByteGo video explanation](https://www.youtube.com/watch?v=dGAgxozNWFE)
 
-[2] https://request.geeksforgeeks.org/?p=468000
+* [Understanding Caching by GeeksForGeeks](https://request.geeksforgeeks.org/?p=468000)
