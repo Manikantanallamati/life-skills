@@ -58,10 +58,15 @@ It uses cache too:
 ## Why Caching Is Important
 
 Caching helps systems:
+
 Run faster
+
 Handle more users at once
+
 Use fewer resources
+
 Give users a smoother experience
+
 By storing data closer to where it's needed, systems don't waste time getting it from slower places.
 
 
