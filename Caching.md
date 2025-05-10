@@ -22,37 +22,36 @@ For example, if you always use a pen at work, you keep it on your desk instead o
 
 ## 1. Caching Inside the Computer (Hardware-Level)
 
-    The CPU (Central Processing Unit) is the brain of the computer. It uses several types of cache to quickly access data:
+The CPU (Central Processing Unit) is the brain of the computer. It uses several types of cache to quickly access data:
 ### L1 Cache: 
-        This is the smallest but fastest. It’s right inside the CPU and stores the most-used information.
+This is the smallest but fastest. It’s right inside the CPU and stores the most-used information.
 ### L2 Cache: 
-        Bigger than L1 and a bit slower. Still close to the CPU.
+Bigger than L1 and a bit slower. Still close to the CPU.
 ### L3 Cache: 
-        Even bigger and slower. Usually shared by many CPU parts (called cores).
+Even bigger and slower. Usually shared by many CPU parts (called cores).
 
 
 ## 2. Caching by the Operating System
-
-    The Operating System (OS) is the software that manages your computer’s hardware.
+The Operating System (OS) is the software that manages your computer’s hardware.
 
 It uses cache too:
 
 ### Page Cache: 
-        When you open files from the hard drive, the OS keeps a copy in memory. Next time, it can get it faster.
+When you open files from the hard drive, the OS keeps a copy in memory. Next time, it can get it faster.
 
 ### Inode Cache: 
-        This keeps information about files (like their size or last change time), so it doesn’t have to look it up every time.
+This keeps information about files (like their size or last change time), so it doesn’t have to look it up every time.
 
 
 ## 3. Caching in Apps and the Internet
 
-    Caching helps apps and websites load faster:
+Caching helps apps and websites load faster:
 
 ### Web Browsers: 
-        When you visit a website, your browser saves parts of it (like images or code). If you visit again, it loads faster.
+When you visit a website, your browser saves parts of it (like images or code). If you visit again, it loads faster.
 
 ### Search Engines (like Elasticsearch): 
-        They store data in a way that makes searching lightning-fast.
+They store data in a way that makes searching lightning-fast.
 
 
 ## Why Caching Is Important
